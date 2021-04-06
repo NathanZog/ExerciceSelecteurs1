@@ -17,11 +17,11 @@ section:nth-child(4)>ul>:nth-child(2)>a{
 section:nth-child(5)>h3+span{
     color: blue;
 }
-img{
+section:nth-child(7)>img{
     border-radius: 50%;
     border: solid blue 3px;
     
 }
-section:nth-child(7)>p:hover{
+section:last-child>p:hover{
     color: green;
 }
