@@ -22,6 +22,6 @@ section:nth-child(7)>img{
     border: solid blue 3px;
     
 }
-section:last-child>p:hover{
+section:nth-child(7)>p:hover{
     color: green;
 }
