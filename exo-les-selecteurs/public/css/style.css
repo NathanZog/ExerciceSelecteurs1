@@ -1,20 +1,17 @@
 section{
     padding-bottom: 50px;
-    border-bottom: solid;
-    border-color: black;
-    border-width: 1px;
+    border-bottom: solid black 3px;
 }
 section:first-child>h4{
     color: blue;
 }
 section:nth-child(2){
-    border-bottom-color: red;
-    border-width: 5px;
+    border-bottom: solid red 5px;
 }
 section:nth-child(3)>h3,section:nth-child(3)>ul{
     color: red;
 }
-ul>li>a{
+section:nth-child(4)>ul>:nth-child(2)>a{
     font-size: 25px;
 }
 section:nth-child(5)>h3+span{
